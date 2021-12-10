@@ -1,0 +1,8 @@
+CREATE TABLE Users
+(
+	Id UNIQUEIDENTIFIER PRIMARY KEY,
+	Iin nvarchar(12) UNIQUE NOT NULL,
+	FirstName nvarchar(50) NOT NULL,
+	LastName nvarchar(50) NOT NULL,
+	BirthDate DATETIME NOT NULL
+)
